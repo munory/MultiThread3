@@ -85,12 +85,9 @@ public class Main {
 
     private static void add(String text) {
         switch (text.length()) {
-            case 3:
-                cool3.incrementAndGet();
-            case 4:
-                cool4.incrementAndGet();
-            case 5:
-                cool5.incrementAndGet();
+            case 3 -> cool3.incrementAndGet();
+            case 4 -> cool4.incrementAndGet();
+            case 5 -> cool5.incrementAndGet();
         }
     }
 
